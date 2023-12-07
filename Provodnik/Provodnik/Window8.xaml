@@ -1,0 +1,31 @@
+﻿<Window x:Class="Provodnik.Window8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Provodnik"
+        mc:Ignorable="d"
+        Title="Window8" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
+            <Image Margin="0,0,653,318" Source="/Image5.png" Stretch="Fill"/>
+            <Button Content="Личный кабинет" HorizontalAlignment="Left" Margin="10,146,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click"/>
+            <Button Content="CRM" HorizontalAlignment="Left" Margin="10,180,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_1"/>
+            <Button Content="Управление" HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_2"/>
+            <Button Content="Биллинг" HorizontalAlignment="Left" Margin="10,254,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_3"/>
+            <Button Content="Поддержка" HorizontalAlignment="Left" Margin="10,290,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_4"/>
+            <Button Content="Абонент" HorizontalAlignment="Left" Margin="10,326,0,0" VerticalAlignment="Top" Width="112"/>
+            <Label Content="Абонент ТНС" HorizontalAlignment="Left" Margin="198,40,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <TextBox HorizontalAlignment="Left" Height="44" Margin="595,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+            <Label Content="Абоненты" HorizontalAlignment="Left" Margin="160,128,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label Content="События" HorizontalAlignment="Left" Margin="595,104,0,0" VerticalAlignment="Top" FontSize="18"/>
+            <Image HorizontalAlignment="Left" Height="100" Margin="240,217,0,0" VerticalAlignment="Top" Width="100"/>
+            <Image Margin="160,162,225,39" Source="/Image7.png" Stretch="Fill"/>
+            <TextBox HorizontalAlignment="Left" Height="44" Margin="595,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+            <TextBox HorizontalAlignment="Left" Height="44" Margin="595,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+
+        </Grid>
+
+    </Grid>
+</Window>

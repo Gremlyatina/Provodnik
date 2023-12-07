@@ -1,0 +1,36 @@
+﻿<Window x:Class="Provodnik.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Provodnik"
+        mc:Ignorable="d"
+        Title="Window5" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
+            <Button Content="Личный кабинет" HorizontalAlignment="Left" Margin="10,124,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click" Background="#FF33BB20"/>
+            <Button Content="Каталог" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" Width="112" Background="#FF33BB20"/>
+            <Button Content="Доставка" HorizontalAlignment="Left" Margin="10,216,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_1" Background="#FF33BB20"/>
+            <Button Content="Поддержка" HorizontalAlignment="Left" Margin="10,267,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_2" Background="#FF33BB20"/>
+            <Label Content="Каталог" HorizontalAlignment="Left" Margin="198,40,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <Button Content="Выход" HorizontalAlignment="Left" Margin="10,382,0,0" VerticalAlignment="Top" Width="73" Height="30" Click="Button_Click_3" Background="#FF127304"/>
+            <TextBox HorizontalAlignment="Left" Height="22" Margin="578,44,0,0" TextWrapping="Wrap" Text="поиск..." VerticalAlignment="Top" Width="126"/>
+            <Image Margin="0,0,769,409" Source="/Image13.png" Stretch="Fill"/>
+            <Image Margin="721,44,55,368" Source="/Image14.png" Stretch="Fill"/>
+            <Image Margin="188,100,482,189" Source="/Image15.png" Stretch="Fill" RenderTransformOrigin="0.223,0.186"/>
+            <Image Margin="400,105,272,207" Source="/Image16.png" Stretch="Fill"/>
+            <Image Margin="612,82,27,171" Source="/Image17.png" Stretch="Fill"/>
+            <TextBox HorizontalAlignment="Left" Height="117" Margin="176,277,0,0" TextWrapping="Wrap" Text="Велотренажер двойной DFC B804 dual bike&#xD;&#xA;Цена: 6 тыс. руб.&#xD;&#xA;В наличие: 5 шт.&#xD;&#xA;Рейтинг товара: 5 звёзд" VerticalAlignment="Top" Width="142"/>
+            <TextBox HorizontalAlignment="Left" Height="117" Margin="385,277,0,0" TextWrapping="Wrap" Text="Игровой набор Советехстром&#xD;&#xA;Кеглии и шары&#xD;&#xA;Цена: 1,5 тыс. руб.&#xD;&#xA;В наличие: 9 шт.&#xD;&#xA;Рейтинг товара: 4,7 звёзд&#xA;" VerticalAlignment="Top" Width="176" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Left" Height="117" Margin="612,277,0,0" TextWrapping="Wrap" Text="Шведская стенка&#xD;&#xA;ROMANA Next, pastel&#xA;Цена: 9.2 тыс. руб.&#xA;В наличие: 5 шт.&#xA;Рейтинг товара: 4 звёзд" VerticalAlignment="Top" Width="161"/>
+            <Button Content="В корзину" HorizontalAlignment="Left" Margin="206,367,0,0" VerticalAlignment="Top" Width="112" Background="#FF33BB20"/>
+            <Button Content="В корзину" HorizontalAlignment="Left" Margin="449,367,0,0" VerticalAlignment="Top" Width="112" Background="#FF33BB20"/>
+            <Button Content="В корзину" HorizontalAlignment="Left" Margin="661,367,0,0" VerticalAlignment="Top" Width="112" Background="#FF33BB20"/>
+            <Button Content="Корзина" HorizontalAlignment="Left" Margin="661,404,0,0" VerticalAlignment="Top" Width="112" Background="#FF33BB20"/>
+
+        </Grid>
+        <Image Margin="0,0,681,335" Source="/Image9.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>

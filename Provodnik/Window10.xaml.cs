@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+
+namespace Provodnik
+{
+    /// <summary>
+    /// Логика взаимодействия для Window10.xaml
+    /// </summary>
+    public partial class Window10 : Window
+    {
+        public Window10()
+        {
+            InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window9 window9 = (Window9)sender;
+            window9.Show();
+            Hide();
+        }
+    }
+}

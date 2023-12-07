@@ -1,0 +1,18 @@
+﻿<Window x:Class="Provodnik.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Provodnik"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="102" Margin="10,10,0,0" VerticalAlignment="Top" Width="129"/>
+        <Image Margin="0,0,637,300" Source="/Image3.png" Stretch="Fill"/>
+        <Label Content="Забыли пароль" HorizontalAlignment="Center" Margin="0,86,0,0" VerticalAlignment="Top" FontSize="22" FontWeight="Bold"/>
+        <Label Content="Введите эл.почту" HorizontalAlignment="Left" Margin="271,148,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="280,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208"/>
+        <Button Content="Отправить" HorizontalAlignment="Center" Margin="0,264,0,0" VerticalAlignment="Top" Click="Button_Click" Height="35" Width="89"/>
+
+    </Grid>
+</Window>

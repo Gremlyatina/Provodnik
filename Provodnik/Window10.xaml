@@ -1,0 +1,15 @@
+﻿<Window x:Class="Provodnik.Window10"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Provodnik"
+        mc:Ignorable="d"
+        Title="Window10" Height="450" Width="800">
+    <Grid>
+        <Image Margin="0,0,672,329" Source="/Image9.png" Stretch="Fill"/>
+        <Button Content="Вернуться назад" HorizontalAlignment="Center" Margin="0,307,0,0" VerticalAlignment="Top" Width="112" Height="26" Background="#FF127304" Click="Button_Click"/>
+        <Label Content="Собщение получено, ожидайте ответа, &#xD;&#xA;мы отправим его на вашу эл. почту" HorizontalAlignment="Center" Margin="0,183,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="16"/>
+
+    </Grid>
+</Window>
